@@ -9,7 +9,7 @@ namespace serverSideScripting_Assignment1B.Models
     {
         public int CategoryId { get; set; } // CategoryId = Primary Key for Table
 
-        public string FirstName { get; set; }
+        public string Name { get; set; }
 
         // Create Category and Item Model relationship to show item list within this category.
         public List<Item>Items { get; set; }
