@@ -57,3 +57,4 @@ namespace serverSideScripting_Assignment1B.Data.Migrations
         }
     }
 }
+// update-database
