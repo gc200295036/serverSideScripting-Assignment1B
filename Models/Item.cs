@@ -15,10 +15,10 @@ namespace serverSideScripting_Assignment1B.Models
         public string LastName { get; set; }
 
         public string Email { get; set; }
+        //Foreign Key CategoryId Referenced, must be referenced here so it is useable in applicationdbcontext.cs for this code to work .HasConstraintName("FK_Items_CategoryId");
+        public int CategoryId { get; set; }
         // Category creates relationship with our model category so we can show our list of items
         public Category Category { get; set; }
-        //Foreign Key CategoryId Referenced, must be referenced here so it is useable in applicationdbcontext.cs for this code to work .HasConstraintName("FK_Items_CategoryId");
-        public Category CategoryId { get; set; }
 
     }
 }
